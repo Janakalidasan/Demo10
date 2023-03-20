@@ -206,8 +206,8 @@ width: 100%;
 }
 .dol{
     color: rgba(57, 51, 89, 1);
-    font-size: 16px;
-    font-weight: 800;
+    font-size: 14px;
+    font-weight: 600;
 }
 .ips-lorem{
     color: rgba(146, 146, 146, 1);
@@ -223,7 +223,21 @@ width: 100%;
     border: 1px solid rgba(201, 54, 110, 1) ;
     transition: .5s;
 }
-
+.siled{
+    width: 60% !important;
+    margin-top:  25%;
+}
+.better1{
+    padding-left: 5%;
+    font-weight: bolder;
+    font-size: 13px;
+    padding-top: 5%;
+}.better2{
+    padding-left: 5%;
+    font-size: 11px;
+    color: rgba(146, 146, 146, 1);
+    padding-top: 5%;
+}
 @media (max-width:540px){
     #foot-img{
         background-image: url('../Assets/images/section56789.png');
@@ -270,4 +284,5 @@ width: 100%;
         font-size: 30px;
         color: rgba(200, 79, 96, 1);
     }
+    
 }
