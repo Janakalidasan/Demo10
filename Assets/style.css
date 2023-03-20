@@ -200,6 +200,29 @@ width: 100%;
     color: rgba(146, 146, 146, 1);
     font-size: 12px;
 }
+.ex-over{
+    font-weight: bolder;
+    color: rgba(57, 51, 89, 1);
+}
+.dol{
+    color: rgba(57, 51, 89, 1);
+    font-size: 16px;
+    font-weight: 800;
+}
+.ips-lorem{
+    color: rgba(146, 146, 146, 1);
+    font-size: 14px;
+}
+.btn-3{
+    background-image:linear-gradient(90deg,rgba(201, 54, 110, 1),rgba(236, 86, 108, 1)) ;
+    color: white !important;
+}
+.btn-3:hover{
+    background-image:linear-gradient(90deg,transparent,transparent) ;
+    color:black !important;
+    border: 1px solid rgba(201, 54, 110, 1) ;
+    transition: .5s;
+}
 
 @media (max-width:540px){
     #foot-img{
