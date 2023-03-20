@@ -24,13 +24,28 @@
 
 .nav-link-active {
 
-    color:rgba(253, 195, 7, 1) !important;
+    color:rgba(200, 79, 96, 1) !important;
     font-weight: bolder;
     padding: 0 10px 20px 0;
   
 }
-.navbar-bg{
-    background-color: black;
+.navbar-bg {
+    min-height: 55px !important;
+    background-color:transparent !important;
+    height: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+
+.navbar-bg2 {
+    background-color: black !important;
+    transition: all .2s ease-in-out;
+    animation: smoothScroll 1s forwards;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 55px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .search{
     width: 30%;
@@ -72,6 +87,50 @@
     width: 30px !important; 
     color: white !important;
 }
+
+/*home*/
+#back-img{
+    background-image: url('../Assets/images/rs-module-wrap.png');
+  
+    background-size: cover !important;
+    background-repeat: no-repeat;
+width: 100%;
+    height: 450px;
+    
+  
+}
+.invest{
+    color: white;
+    font-weight: bolder;
+    padding-top: 25%;
+}
+.invest-1{
+    color: white;
+    font-size: 13px;
+}
+.money-bag{
+    width: 70% !important;
+    padding-top:10%;
+}
+.btn-1{
+    background-image:linear-gradient(180deg,rgba(201, 54, 110, 1),rgba(236, 86, 108, 1)) ;
+    color: white !important;
+
+}.btn-1:hover{
+    background-image:linear-gradient(180deg,transparent,transparent) ;
+    color: white !important;
+    border: 1px solid white;
+
+}
+.btn-2{
+    border: 1px solid white !important;
+    color: white !important;
+    margin-left: 20px;
+}.btn-2:hover{
+    background-image:linear-gradient(180deg,rgba(201, 54, 110, 1),rgba(236, 86, 108, 1)) ;
+    color: white !important;
+    border: none !important;
+}
 @media (max-width:540px){
     #foot-img{
         background-image: url('../Assets/images/section56789.png');
@@ -81,4 +140,41 @@
         height: auto;
         
     } 
+    #back-img{
+        background-image: url('../Assets/images/rs-module-wrap.png');
+      
+        background-size: cover;
+        background-repeat: no-repeat;
+    width: 100%;
+        height: auto;
+        
+      
+    }
+    .invest-1{
+        color: white;
+        font-size: 11px;
+    }
+    .navbar-bg {
+        min-height: 55px !important;
+        background-color:black !important;
+        height: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+       
+    }
+    
+    .navbar-bg2 {
+        background-color: black !important;
+        transition: all .2s ease-in-out;
+        animation: smoothScroll 1s forwards;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        height: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .fas {
+        font-weight: 900;
+        font-size: 30px;
+        color: rgba(200, 79, 96, 1);
+    }
 }
