@@ -1,0 +1,84 @@
+
+/* header style*/
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#navbarSupportedContent ul li a {
+    padding-left: 30px !important;
+    font: 1em sans-serif;
+
+
+}
+
+.nav-link {
+
+    color:rgba(200, 200, 200, 1) !important;
+    font-weight: bolder;
+    font-size: 15px !important;
+    
+
+}
+
+.nav-link-active {
+
+    color:rgba(253, 195, 7, 1) !important;
+    font-weight: bolder;
+    padding: 0 10px 20px 0;
+  
+}
+.navbar-bg{
+    background-color: black;
+}
+.search{
+    width: 30%;
+}
+.py-1{
+    margin-left: -30px;
+    font-size: 12px;
+    color: white;
+    opacity: 1.5;
+    
+}
+.add{
+    margin-left: -30px;
+    font-size: 12px;
+    color: white;
+    opacity: 1.5;
+    padding-top: 8px;
+}
+.py-1:hover{
+    color: rgba(200, 79, 96, 1);
+}
+#foot-img{
+    background-image: url('../Assets/images/section56789.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    
+}
+
+#down{
+    padding-top: 5%
+}
+.atb{
+    color: white;
+    font-weight: bolder;
+}
+#fac{
+    width: 30px !important; 
+    color: white !important;
+}
+@media (max-width:540px){
+    #foot-img{
+        background-image: url('../Assets/images/section56789.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+        
+    } 
+}
