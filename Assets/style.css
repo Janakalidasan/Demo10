@@ -93,7 +93,7 @@
     background-image: url('../Assets/images/div.png');
     background-size: 67%;
     background-repeat: no-repeat;
-    
+
     
 }
 #back-img{
@@ -596,6 +596,59 @@ font-weight: bolder;
     background-position: center;
     background-size: cover;
     height: 100%;
+}#col-linear{
+    background-image: linear-gradient(140deg,rgba(1, 2, 48, 1), rgba(1, 2, 48, 1),rgba(66, 25, 65, 1));
+height: 130px;
+}.op-acc{
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+}#col-linear-1{
+    background-image: linear-gradient(140deg,rgba(1, 2, 48, 1), rgba(1, 2, 48, 1),rgba(66, 25, 65, 1));
+height: auto;
+}.tow-1{
+    width: 100%;
+}.support-1{
+    font-weight: bolder;
+    color: white;
+}.where{
+    color: whitesmoke;
+    font-size: 13px;
+}.int{
+    font-weight: bolder;
+    color: white;
+}.fine{
+    color: whitesmoke;
+    font-size: 13px;
+}.vit{
+    color: rgba(245, 42, 109, 1);
+    font-size: 10px;
+}.accordion-item{
+    background-color: transparent !important;
+  border: none !important;
+}.accordion-button{
+    background-color: transparent !important;
+    color: white !important;
+    font-size: 15px !important;
+}
+.accordion-body{
+    color: white !important;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image:url('../Assets/images/rtyu.png') !important;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image:url('../Assets/images/-9.png') !important;
+    transform: none !important;
 }
 @media (max-width:540px){
     #back-img-2{
