@@ -102,7 +102,7 @@ width: 100%;
 .invest{
     color: white;
     font-weight: bolder;
-    padding-top: 25%;
+    padding-top: 35%;
 }
 .invest-1{
     color: white;
@@ -272,7 +272,7 @@ width: 100%;
     background-image:linear-gradient(90deg,rgba(201, 54, 110, 1),rgba(236, 86, 108, 1)) ;
     color: white !important;
     margin-left: -15px;
-    font-size: 15px !important;
+    font-size: 14px !important;
 }.btn-4:hover{
     color: black !important;
     background-image:linear-gradient(90deg,transparent,transparent) ;
@@ -373,15 +373,18 @@ font-weight: 600;
 }.ch-out{
     font-weight: bolder;
     color: rgba(57, 51, 89, 1);
-    padding-top: 25%;
+    padding-top: 15%;
 }.back-white{
-    margin-top: 25%;
+    margin-top: 15%;
     background-color: white;
     padding: 10px 23px 10px 40px;
     width: 310px;
 }
 .many-time{
     color: rgba(146, 146, 146, 1);
+}.car-1:hover{
+    box-shadow: 0px 0px 10px 0px rgba(255, 107, 110, 1) 
+    
 }
 @media (max-width:540px){
     #back-img-2{
@@ -411,11 +414,23 @@ font-weight: 600;
     .join-one {
         color: rgba(57, 51, 89, 1);
         font-weight: bolder;
-        padding-top: 17%;
+        padding-top: 10%;
         font-size: 12px;
+        padding-left: 10px;
+    }.join1{
+        color: rgba(146, 146, 146, 1);
+        font-size: 12px;
+        padding-left: 10px;
     }
+    .btn-4 {
+        background-image: linear-gradient(90deg,rgba(201, 54, 110, 1),rgba(236, 86, 108, 1));
+        color: white !important;
+        margin-left: -15px;
+        font-size: 10px !important;
+    }
+
     .con{
-        width: 95% !important;
+        width: 93% !important;
         background-image: url('../Assets/images/section.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -490,5 +505,11 @@ font-weight: 600;
     .ips-lorem {
         color: rgba(146, 146, 146, 1);
         font-size: 11px;
+    }
+    #hi-cd-1{
+        margin-top: 20px;
+    }
+    #hi-cd-2{
+        margin-top: 40px;
     }
 }
