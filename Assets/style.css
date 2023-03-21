@@ -387,6 +387,9 @@ font-weight: 600;
     
 }.bac{
     color: rgba(146, 146, 146, 1);
+}.pag{
+    width: 50%;
+    padding-top: 10px;
 }
 @media (max-width:540px){
     #back-img-2{
