@@ -650,6 +650,38 @@ height: auto;
     background-image:url('../Assets/images/-9.png') !important;
     transform: none !important;
 }
+
+/*contact*/
+#back-img-7{
+    background-image: url('../Assets/images/rs-sbg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}.gets{
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 17%;
+}.seen{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}#dolor{
+    width: 30%;
+}.prov-with-4{
+    margin-left: -45px;
+}.every{
+    color: rgba(245, 42, 109, 1);
+}
+.well-establish{
+    font-weight: bolder;
+    color: rgba(57, 51, 89, 1);
+
+}
 @media (max-width:540px){
     #back-img-2{
         background-image: url('../Assets/images/section34.png');
@@ -801,5 +833,14 @@ height: auto;
         background-position: center;
         background-size: cover;
         height: auto;
+    }
+    /*contct*/
+    .gets {
+        font-weight: bolder;
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 45%;
     }
 }
