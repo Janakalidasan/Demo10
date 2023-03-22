@@ -807,7 +807,7 @@ width: 100%;
     text-align: center;
     font-size: 13px;
 }#brbl {
-    box-shadow: 0px 0px 10px rgba(244, 118, 127, 1);
+    box-shadow: 0px 0px 7px rgba(244, 118, 127, 1);
     width: 238px;
     height: 300px;
 }#omg-1{
@@ -1019,6 +1019,6 @@ width: 100%;
         display: flex;
         justify-content: center;
         text-align: center;
-        font-size: 11px;
+        font-size: 10px;
     }
 }
