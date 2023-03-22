@@ -1209,4 +1209,8 @@ width: 100%;
     }#could{
         margin-top: 0px;
     }
+    #pink-color-2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
