@@ -641,13 +641,13 @@ height: auto;
     height: 1.25rem;
     margin-left: auto;
     content: "";
-    background-image:url('../Assets/images/rtyu.png') !important;
+    background-image:url('../Assets/images/svgrt.png') !important;
     background-repeat: no-repeat;
     background-size: 1.25rem;
     transition: transform .2s ease-in-out;
 }
 .accordion-button:not(.collapsed)::after{
-    background-image:url('../Assets/images/-9.png') !important;
+    background-image:url('../Assets/images/Rectangle 34270.png') !important;
     transform: none !important;
 }
 
@@ -749,6 +749,69 @@ height: auto;
     border-left:4px solid rgba(252, 43, 111, 1) ;
     border-right:4px solid rgba(252, 43, 111, 1) ;
     
+}
+
+/*about*/
+#back-im{
+    background-image: url('../Assets/images/rs-sbg-1.png');
+  background-position: center;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+width: 100%;
+    height: 400px;
+    
+  
+}#ell{
+    width: 20px;
+}.para-1{
+    margin-left: -30px;
+    color:rgba(146, 146, 146, 1) ;
+    font-size: 13px;
+    margin-top: 5px;
+}.btn-8{
+    background-image:linear-gradient(90deg,rgba(236, 86, 108, 1),rgba(201, 54, 110, 1)) ;
+    color: white!important;
+    font-size: 12px !important;
+    padding: 10px 30px 10px 30px !important;
+}.doo{
+    color: rgba(30, 22, 103, 1);
+    font-weight: bolder;
+}.ipsum-1{
+    color:rgba(146, 146, 146, 1) ;
+    font-size: 13px;
+}#lap-hum{
+    width: 85%;
+}#ell-1{
+    width: 30px;
+}.cost-1{
+    font-weight: bolder;
+    color: rgba(30, 22, 103, 1);
+    font-size: 17px;
+    margin-left: -50px;
+}.para-2{
+   
+    color:rgba(146, 146, 146, 1) ;
+   margin-left: -90px;
+   font-size: 14px;
+}#omg{
+    width: 80%;
+}.bus{
+    font-weight: bolder;
+    color: rgba(30, 22, 103, 1);
+    display: flex;
+    justify-content: center;
+}.lo-im{
+    color:rgba(146, 146, 146, 1) ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+}#brbl {
+    box-shadow: 0px 0px 10px rgba(244, 118, 127, 1);
+    width: 238px;
+    height: 300px;
+}#omg-1{
+    width: 60%;
 }
 @media (max-width:540px){
     #back-img-2{
@@ -930,5 +993,32 @@ height: auto;
     }
     #dolor{
         width: 70%;
+    }
+    /*about*/
+    #back-im{
+        background-image: url('../Assets/images/rs-sbg-1.png');
+      background-position: center;
+        background-size: cover !important;
+        background-repeat: no-repeat;
+    width: 100%;
+        height: auto;
+        
+      
+    }.para-1 {
+        margin-left: -25px;
+        color: rgba(146, 146, 146, 1);
+    }
+    .bus {
+        font-weight: bolder;
+        color: rgba(30, 22, 103, 1);
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }.lo-im {
+        color: rgba(146, 146, 146, 1);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 11px;
     }
 }
