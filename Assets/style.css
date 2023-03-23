@@ -1724,6 +1724,8 @@ font-weight: bold !important;
 }#roct-point {
     width: 25px;
     margin-top: 20px;
+}.sns .search {
+    width: 10%;
 }
 }
 @media (min-width:1500px) and (max-width:1890px){
