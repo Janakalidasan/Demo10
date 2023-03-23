@@ -1561,7 +1561,7 @@ font-size: 15px;
     margin-left: 75px;
 }
 }
-@media (min-width:1500px) and (max-width:1900px){
+@media (min-width:1500px) and (max-width:1890px){
     #back-im-1{
         background-image: url('../Assets/images/rs-sbg-1.png');
       background-position: center;
