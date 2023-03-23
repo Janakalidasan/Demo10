@@ -1038,6 +1038,164 @@ width: 100%;
 font-size: 15px;
 }#lap-trade{
     width: 95%;
+}#pen{
+    
+     box-shadow: 0px 0px 10px gainsboro;
+    border-left: 3px solid rgba(255, 61, 97, 1);
+}#pen-2{
+    background-image: linear-gradient(180deg,rgba(255, 45, 148, 1),rgba(254, 73, 46, 1));
+    box-shadow: 0px 0px 10px gainsboro;
+   border-left: 3px solid rgba(255, 61, 97, 1);
+}
+.card-title-7{
+    font-size: 15px;
+    margin-left: -35px;
+    font-weight: bolder;
+    color: rgba(30, 22, 103, 1);
+}.card-text-5{
+    font-size: 11px;
+    margin-left: -34px;
+    color: rgba(146, 146, 146, 1);
+}
+
+.card-title-8{
+    font-size: 15px;
+    margin-left: -35px;
+    font-weight: bolder;
+    color: white;
+}.card-text-6{
+    font-size: 11px;
+    margin-left: -34px;
+    color: white;
+    opacity: .7;
+}
+#pen-1{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 20px;
+}.low-1{
+    font-weight: bolder;
+    color: rgba(30, 22, 103, 1);
+    display: flex;
+    justify-content: center;
+}#imd{
+    background-image: url('../Assets/images/image 13.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}.table thead tr th {
+    color: rgba(255, 73, 51, 1);
+    font-size: 20px;
+   border: none !important;
+}.table tbody tr td{
+    border: none !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.table tbody tr th{
+    font-weight: normal !important;
+    color: rgba(255, 73, 51, 1);
+    border: none !important;
+}.table thead tr .fast{
+    border: 1px solid rgba(255, 73, 51, 1) !important;
+   
+}.dis{
+    font-weight: bolder;
+    color: rgba(30, 22, 103, 1);
+    display: flex;
+    justify-content: center;
+}
+
+
+/**/
+.card-1 {
+    background-image: linear-gradient(140deg, rgba(231, 59, 63, 1),rgba(127, 64, 72, 1), rgba(81, 81, 85, 1));
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+.card-3 {
+    background-image: linear-gradient(140deg,rgba(197, 16, 113, 1),rgba(127, 64, 72, 1), rgba(81, 81, 85, 1));
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+.card-2 {
+    border: 2px solid rgba(146, 146, 146, 1) ;
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
+
+.card-title {
+    margin-left: 60px;
+    font-weight: bold;
+    color: hsl(0deg 0% 100%);
+}
+
+.card-title-1 {
+    margin-left: 30px;
+    font-weight: bold;
+    color: rgba(245, 67, 54, 1);
+}
+
+.card-title-2 {
+    margin-left: 40px;
+    font-weight: bold;
+    color: hsl(225deg 18% 96%);
+}
+
+.card-title-3 {
+    margin-left: 40px;
+    font-weight: bold;
+    color: hsl(215deg 87% 9%);
+}
+
+.card-text {
+    text-align: center;
+    font-size: 13px;
+    color: hsl(225deg 18% 96%);
+    margin-top: 20px;
+}
+
+.card-text-1 {
+    text-align: center;
+    font-size: 13px;
+    color: hsl(217deg 26% 23%);
+    margin-top: 40px;
+}
+.card-text-2 {
+    text-align: center;
+    font-size: 13px;
+    color: hsl(217deg 26% 23%);
+    margin-top: 40px;
+}
+.rmore {
+    margin-left: 50px;
+    color: rgba(245, 67, 54, 1) !important;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.rmore-1 {
+    margin-left: 50px;
+    color: rgba(245, 67, 54, 1) !important;
+    font-weight: bold;
+    margin-top: 50px;
+}#top {
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 30px;
+}#sect{
+    background-image: url('../Assets/images/sectioncjop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:400px;
 }
 @media (max-width:540px){
     #back-img-2{
@@ -1309,6 +1467,53 @@ font-size: 15px;
     }#could{
         margin-top: 0px;
     }
+    /*platform*/
+    #pen{
+    
+        box-shadow: 0px 0px 10px gainsboro;
+       border-left: 3px solid rgba(255, 61, 97, 1);
+   }#pen-2{
+       background-image: linear-gradient(180deg,rgba(255, 45, 148, 1),rgba(254, 73, 46, 1));
+       box-shadow: 0px 0px 10px gainsboro;
+      border-left: 3px solid rgba(255, 61, 97, 1);
+   }
+   .card-title-7{
+       font-size: 15px;
+       margin-left: -35px;
+       font-weight: bolder;
+       color: rgba(30, 22, 103, 1);
+   }.card-text-5{
+       font-size: 11px;
+       margin-left: -34px;
+       color: rgba(146, 146, 146, 1);
+   }
+   
+   .card-title-8{
+       font-size: 15px;
+       margin-left: -35px;
+       font-weight: bolder;
+       color: white;
+   }.card-text-6{
+       font-size: 11px;
+       margin-left: -34px;
+       color: white;
+       opacity: .7;
+   }
+   #pen-1{
+       width: 40%;
+       margin-top: 30px;
+       margin-left: 20px;
+   }#imd{
+    background-image: url('../Assets/images/image 13.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}.card-2 {
+    border: 2px solid rgba(146, 146, 146, 1) !important;
+    border-radius: 5px;
+    margin-top: -50px;
+}
    
 }
 @media (min-width:1500px) and (max-width:1900px){
