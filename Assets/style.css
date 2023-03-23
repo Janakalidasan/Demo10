@@ -1329,6 +1329,11 @@ font-weight: bold !important;
     border: 2px solid rgba(40, 40, 40, 1);
 }
 @media (max-width:540px){
+    #up{
+        margin-left: -10px;
+        display: flex;
+        justify-content: end;
+    }
     .copy-trade-1 {
         margin-left: -25px;
         font-weight: bolder;
@@ -1686,7 +1691,7 @@ font-weight: bold !important;
     padding-top: 0%;
 }#rocket{
     background-image:none !important;
-    background-color:#afd1ee !important;
+  /* background-color:#afd1ee !important; */
     background-position: center;
       background-size: cover !important;
       background-repeat: no-repeat;
@@ -1694,7 +1699,7 @@ font-weight: bold !important;
       height: auto;
       display: flex;
     justify-content: center;
-    margin-left: 70px;
+    margin-left: 0px;
   
 }.dot-dot-s{
     margin-left: -10px;
