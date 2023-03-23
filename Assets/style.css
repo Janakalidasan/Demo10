@@ -347,12 +347,23 @@ font-weight: 600;
     border: 1px solid rgba(255, 107, 110, 1) !important;
     color: rgba(255, 107, 110, 1) !important;
     padding: 8px 40px 8px 40px !important;
+}.btn-5:hover{
+    background-image:linear-gradient(90deg,rgba(201, 54, 110, 1),rgba(236, 86, 108, 1)) ;
+    color: white!important;
+    padding: 8px 40px 8px 40px !important;
 }
 .btn-6{
     background-image:linear-gradient(90deg,rgba(201, 54, 110, 1),rgba(236, 86, 108, 1)) ;
     color: white!important;
     padding: 8px 40px 8px 40px !important;
-}#hi-cd{
+}.btn-6:hover{
+    border: 1px solid rgba(255, 107, 110, 1) !important;
+    color: rgba(255, 107, 110, 1) !important;
+    padding: 8px 40px 8px 40px !important;
+    background-image:linear-gradient(90deg,white,white) ;
+}
+
+#hi-cd{
     height: 100%;
     box-shadow: 0px 0px 7px 0px rgba(255, 107, 110, 1)  ;
 }#hi-cd-1{
@@ -424,12 +435,24 @@ font-weight: 600;
     color: white!important;
     font-size: 12px !important;
     padding: 10px 30px 10px 30px !important;
+}.btn-7:hover{
+    background-image:linear-gradient(90deg,white,white) ;
+    color:rgba(236, 86, 108, 1) !important;
+    font-size: 12px !important;
+    padding: 10px 30px 10px 30px !important;
+    border: 1px solid rgba(236, 86, 108, 1);
 }
 .btn-8{
     background-image:linear-gradient(90deg,rgba(236, 86, 108, 1),rgba(201, 54, 110, 1)) ;
     color: white!important;
     font-size: 12px !important;
     padding: 10px 40px 10px 40px !important;
+}.btn-8:hover{
+    background-image:linear-gradient(90deg,white,white) ;
+    color:rgba(236, 86, 108, 1) !important;
+    font-size: 12px !important;
+    padding: 10px 30px 10px 30px !important;
+    border: 1px solid rgba(236, 86, 108, 1);
 }
 .look{
     color: white;
@@ -1281,11 +1304,32 @@ font-size: 15px;
     color: white!important;
 font-weight: bold !important;
     padding: 10px 10px 10px 10px !important;
+}
+.btn-9:hover{
+    background-image:linear-gradient(90deg,transparent,transparent) ;
+    color: white!important;
+font-weight: bold !important;
+    padding: 10px 10px 10px 10px !important;
+    border: 1px solid rgba(236, 86, 108, 1);
 }.btn0{
-    font-weight: bold !important;
+    background-color: rgba(40, 40, 40, 1) !important;
+    color: white !important;
+    font-weight: bold;
+}.btn0:hover{
+    background-color: transparent !important;
+    color: white !important;
+    font-weight: bold;
+    border: 2px solid rgba(40, 40, 40, 1);
 }
 @media (max-width:540px){
-   
+    .copy-trade-1 {
+        margin-left: -25px;
+        font-weight: bolder;
+        color: white;
+    }
+    .acc-inside-1 {
+        width: 75%;
+    }
     .btn-9{
         background-image:linear-gradient(90deg,rgba(236, 86, 108, 1),rgba(201, 54, 110, 1)) ;
         color: white!important;
