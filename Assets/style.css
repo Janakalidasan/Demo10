@@ -1509,7 +1509,14 @@ font-weight: bold !important;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        height: auto;
+        height: 710px;
+    }
+    .our-pri {
+        color: rgba(57, 51, 89, 1);
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        padding-top: 30%;
     }
     #back-img-3{
         background-image: url('../Assets/images/section78.png');
