@@ -234,7 +234,7 @@ width: 100%;
 }
 .dol{
     color: rgba(57, 51, 89, 1);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
 }
 .ips-lorem{
@@ -258,11 +258,11 @@ width: 100%;
 .better1{
     padding-left: 5%;
     font-weight: bolder;
-    font-size: 13px;
+    font-size: 15px;
     padding-top: 5%;
 }.better2{
     padding-left: 5%;
-    font-size: 11px;
+    font-size: 12px;
     color: rgba(146, 146, 146, 1);
     padding-top: 5%;
 }
