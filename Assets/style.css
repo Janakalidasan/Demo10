@@ -106,10 +106,10 @@
 #back-img{
     background-image: url('../Assets/images/rs-module-wrap.png');
   background-position: center;
-    background-size: cover !important;
+    background-size: cover;
     background-repeat: no-repeat;
-width: 100%;
-    height: auto;
+width: 100% !important;
+    height: 520px;
     
   
 }
