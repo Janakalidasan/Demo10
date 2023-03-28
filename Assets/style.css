@@ -120,7 +120,7 @@ width: 100% !important;
 }
 .invest-1{
     color: white;
-    font-size: 13px;
+    font-size: 14px;
     opacity: .6;
 }
 .money-bag{
@@ -1035,8 +1035,9 @@ width: 100%;
     font-weight: bolder;
     color: rgba(30, 22, 103, 1);
 }.srting{
-    color: rgba(146, 146, 146, 1);
+    color: black;
     font-size: 15px;
+    opacity: .9;
 }#clc{
     width: 21px;
 }.fill{
