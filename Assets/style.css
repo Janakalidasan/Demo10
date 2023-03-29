@@ -1376,6 +1376,9 @@ font-weight: bold !important;
     border: 2px solid rgba(40, 40, 40, 1);
 }
 @media (max-width:540px){
+    #down{
+        padding-top: 10%
+    }
     #mms{
         margin-top: 7%;
         background-color: white;
