@@ -77,7 +77,7 @@
     color: rgba(200, 79, 96, 1);
 }
 #foot-img{
-    background-image: url('../Assets/images/section56789.png');
+    background-image: url('../Assets/images/section45.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1376,9 +1376,7 @@ font-weight: bold !important;
     border: 2px solid rgba(40, 40, 40, 1);
 }
 @media (max-width:540px){
-    #down{
-        padding-top: 10%
-    }
+   
     #mms{
         margin-top: 7%;
         background-color: white;
