@@ -260,7 +260,7 @@ width: 100% !important;
 .better1{
     padding-left: 5%;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 14px;
     padding-top: 5%;
 }.better2{
     padding-left: 5%;
@@ -366,12 +366,12 @@ font-weight: 600;
 }.btn-5{
     border: 1px solid rgba(255, 107, 110, 1) !important;
     color: rgba(255, 107, 110, 1) !important;
-    padding: 8px 40px 8px 40px !important;
-}.btn-5:hover{
+    padding: 8px 40px 8px 40px !important;}
+/* }.btn-5:hover{
     background-image:linear-gradient(90deg,rgba(201, 54, 110, 1),rgba(236, 86, 108, 1)) ;
     color: white!important;
     padding: 8px 40px 8px 40px !important;
-}
+} */
 .btn-6{
     background-image:linear-gradient(90deg,rgba(201, 54, 110, 1),rgba(236, 86, 108, 1)) ;
     color: white!important;
@@ -382,7 +382,29 @@ font-weight: 600;
     padding: 8px 40px 8px 40px !important;
     background-image:linear-gradient(90deg,white,white) ;
 }
-
+#hi-cd:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+#hi-cd-1:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}#hi-cd-2:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}#hi-cd-2:hover .btn-5{
+    background-image:linear-gradient(90deg,rgba(201, 54, 110, 1),rgba(236, 86, 108, 1)) ;
+    color: white!important;
+    padding: 8px 40px 8px 40px !important;
+}#hi-cd-1:hover .btn-5{
+    background-image:linear-gradient(90deg,rgba(201, 54, 110, 1),rgba(236, 86, 108, 1)) ;
+    color: white!important;
+    padding: 8px 40px 8px 40px !important;
+}#hi-cd:hover .btn-5{
+    background-image:linear-gradient(90deg,rgba(201, 54, 110, 1),rgba(236, 86, 108, 1)) ;
+    color: white!important;
+    padding: 8px 40px 8px 40px !important;
+}
 #hi-cd{
     height: 100%;
     box-shadow: 0px 0px 7px 0px rgba(255, 107, 110, 1)  ;
@@ -1842,3 +1864,55 @@ font-weight: bold !important;
 .sse{
     margin-top: -30px !important;
 }
+.toggle-btn-wrapper {
+    position: relative;
+    width: 100px;
+    height: 50px;
+  }
+  
+  /* Set default styles */
+  .toggle-btn-default {
+    border: 2px solid white;
+    background-color: rgba(242, 232, 231, 1) !important;
+    height: 50px;
+    width: 142px;
+    font-weight: bold;
+    color: black;
+    border-radius: 25px;
+  }
+  
+  .toggle-btn-control {
+    width: 68px;
+    height: 46px;
+    background-color: rgba(243, 92, 107, 1);
+    
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: 2px;
+    opacity: .5;
+    right: -40px;
+    z-index: 2;
+    border-radius: 0 20px 20px 0;
+  }
+  
+  /* Animation speeds and types */
+  .transform-btn, .transform-control {
+    -webkit-transition: all 0.8s ease;  
+    -moz-transition: all 0.8s ease;  
+    -o-transition: all 0.8s ease;  
+    -ms-transition: all 0.8s ease;  
+    transition: all 0.8s ease;
+  }
+  
+  /* Changes to the button */
+  .transform-btn-active {
+    background-color: transparent;
+  }
+  
+  /* Changes to the toggle square on top */
+  .transform-control-active {
+    right: 30px;
+    border-radius: 20px 0 0 20px;
+  }
+  

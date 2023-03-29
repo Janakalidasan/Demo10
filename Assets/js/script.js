@@ -25,3 +25,13 @@ fetch("./footer.html")
             }
         });
     });
+
+    $("#control-uniqueID1").click(function() {
+        //if the control is clicked, we still have to make sure the button is submitted/clicked
+        $('#button-uniqueID1').click();
+      });
+      //Then if the button is clicked, run the thing
+      $("#button-uniqueID1").click(function() {
+        $('#button-uniqueID1').toggleClass('transform-btn-active');
+        $('#control-uniqueID1').toggleClass('transform-control-active');
+      });
